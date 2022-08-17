@@ -82,7 +82,6 @@ For more information, see about the `Date` data type: https://developer.mozilla.
 timer({
     endDate: new Date(1900, 1, 1),  // Put your end date here
     parentSelector: ".timer",
-    monthSelector: "#months",
     daySelector: "#days",
     hourSelector: "#hours",
     minuteSelector: "#minutes",
@@ -128,9 +127,9 @@ If you have **ANY PROBLEMS**, it is recommended to check all the names and paths
 You can also **unzip the project** completely and see how it works.
 
 ## Parameters
-You can independently change the properties of the object passed to the timer (`timer()` by default).
+You can independently change the properties of the object passed to the timer (`timer()` by default).  
 **ATTENTION!** To correctly pass the selector as a property value, use:
-- `".MyClass"` for the class (use a dot);
+- `".myClass"` for the class (use a dot);
 - `"#myId"` for id;
 - `"myTag"` for tag selection;
 - `"[data-myAttribute]"` for attribute.
