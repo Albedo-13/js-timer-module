@@ -62,7 +62,7 @@ At this stage, you should have Webpack installed and running.
 
 **2)** Download both `cyx-timer.min.css` and `cyx-timer.min.css.map` files from the `css/` archive folder directly into your `css/` folder
 **OR** compile them optionally using the `cyx-timer.scss` preprocessor file.
-After just add a link to the `.min.css` file in your <head>:
+After just link the `cyx-timer.min.css` file in your `<head>` tag:
 ```html
 <link rel="stylesheet" href="css/cyx-timer.min.css">
 ```
